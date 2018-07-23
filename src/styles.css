@@ -1,0 +1,146 @@
+body {
+    font-family: 'Bookman Old Style', Tahoma, serif;
+    background-color: #e1d5cc;
+    color: #555;
+}
+
+
+
+a {
+    color: rgb(149, 110, 155);
+}
+
+.strong {
+    font-weight: bold;
+    padding-top: 5px;
+    margin-bottom: 1px;
+    color: rgb(149, 110, 155);
+}
+
+/* Header */
+
+.container-fluid.header {
+    margin-bottom: 10px;   
+    font-family: 'Bookman Old Style', Tahoma, serif;
+    font-size: 86%;
+    border-bottom: #555 solid 3px;
+    font-weight: bold;
+    text-shadow: 1px 2px white;
+    
+}
+
+
+.headlogo {
+   max-width: 80%;
+   padding-bottom: 5px;
+}
+
+.dropdown-menu {
+    font-family: 'Bookman Old Style', Tahoma, serif;
+    font-size: 85%;
+    background-color: #ffffffc2;
+    text-transform: uppercase;
+}
+
+.dropdown-item:hover {
+    background-color: #e1d5cc;
+}
+
+#navbarNavDropdown {
+    background-color: #e1d5cc;
+}
+
+
+
+/*Content*/
+.container-fluid.content {
+    margin-bottom: 10px;
+}
+.row.menukepek {
+   margin-left: 15px;
+   margin-right: 5px;
+}
+
+div.col-sm-4 {
+    margin: 0;
+    padding: 0;
+}
+
+.fokep {
+    max-width: 100%;
+    margin: 0;
+}
+
+#kep-xs {
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+/* Footer */
+.container-fluid.footer {
+    background-color:  #44403d;
+    color: white;
+    font-family: Broadway, Tahoma, serif;
+    font-size: 100%;
+    text-align: center;
+    padding-top: 5px;
+    border-top: #555 solid 3px;
+    letter-spacing: 1px;
+    
+    
+}
+
+.container-fluid.footer ul {
+    font-family: 'Bookman Old Style', Tahoma, serif;
+    font-size: 12px;
+    list-style-type: none;
+    text-align: left;
+    padding-top: 5px;
+    letter-spacing: 1px;
+}
+
+.container-fluid.footer a {
+    color: white;
+}
+
+.kapcsolat {
+   font-size: 12px;
+}
+
+.row.szerzo {
+    font-size: 10px;
+    text-align: right;
+    border-top: #555 dotted 1px;
+    max-height: 15px;
+}
+
+.row.footer {
+    max-height: 20%;
+}
+
+.fejlec {
+    margin: 0;
+    font-family: Broadway, Tahoma, serif;
+}
+
+
+/* Media Queries */
+
+@media screen and (min-width: 992px){
+    .headlogo {
+        max-width: 30%;
+    }
+
+    .fokep {
+        max-width: 90%;
+        padding: 0;
+    }
+    
+}
+
+@media screen and (min-width: 575px){
+    .fokep {
+        padding: 5px;
+    }
+}
