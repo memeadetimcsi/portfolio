@@ -1,5 +1,5 @@
 body {
-    font-family: 'Bookman Old Style', Tahoma, serif;
+    font-family: Georgia, Tahoma, serif;
     background-color: #e1d5cc;
     color: #555;
 }
@@ -21,11 +21,12 @@ a {
 
 .container-fluid.header {
     margin-bottom: 10px;   
-    font-family: 'Bookman Old Style', Tahoma, serif;
+    font-family: Georgia, Tahoma, serif;
     font-size: 86%;
     border-bottom: #555 solid 3px;
-    font-weight: bold;
-    text-shadow: 1px 2px white;
+    font-weight: bolder;
+    text-shadow: 1px 1px rgba(149, 110, 155, 0.404);
+    
     
 }
 
@@ -36,7 +37,7 @@ a {
 }
 
 .dropdown-menu {
-    font-family: 'Bookman Old Style', Tahoma, serif;
+    font-family: Georgia, Tahoma, serif;
     font-size: 85%;
     background-color: #ffffffc2;
     text-transform: uppercase;
@@ -92,7 +93,7 @@ div.col-sm-4 {
 }
 
 .container-fluid.footer ul {
-    font-family: 'Bookman Old Style', Tahoma, serif;
+    font-family: Georgia, Tahoma, serif;
     font-size: 12px;
     list-style-type: none;
     text-align: left;
