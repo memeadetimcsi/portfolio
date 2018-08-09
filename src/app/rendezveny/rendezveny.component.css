@@ -7,12 +7,18 @@
 }
 
 img {
-    max-width: 50%;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    max-width: 80%;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 .szoveg {
     padding-top: 10px;
     text-align: justify;
+}
+
+@media screen and (max-width: 576px){
+    img  {
+        max-width: 50%;
+    } 
 }
