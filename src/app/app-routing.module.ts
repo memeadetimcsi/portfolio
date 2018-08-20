@@ -5,7 +5,6 @@ import { FooterComponent } from './footer/footer.component';
 import { GrafikaComponent } from './grafika/grafika.component';
 import { HeaderComponent } from './header/header.component';
 import { IllusztracioComponent } from './illusztracio/illusztracio.component';
-import { KapcsolatComponent } from './kapcsolat/kapcsolat.component';
 import { RendezvenyComponent } from './rendezveny/rendezveny.component';
 import { SzolgaltatasComponent } from './szolgaltatas/szolgaltatas.component';
 import { WebfejlesztesComponent } from './webfejlesztes/webfejlesztes.component';
@@ -23,9 +22,7 @@ const routes: Routes = [
   { path: 'illusztracio',
     component: IllusztracioComponent
   },
-  { path: 'kapcsolat',
-    component: KapcsolatComponent
-  },
+
   { path: 'rendezveny',
     component: RendezvenyComponent
   },
