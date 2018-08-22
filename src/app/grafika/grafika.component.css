@@ -9,15 +9,30 @@
 }
 
 img {
-    max-width: 90%;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    max-width: 600px;
+    margin: 0 auto;
 }
 
-.nagy {
-    max-height: 300px;
+.fejlec {
+    margin-top: 5px;
 }
 
-.palinka {
-    max-height: 250px;
+.slidesor, h5, .carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: #44403d81;
+}
+
+
+h5 {
+    font-weight: bold;
+    text-shadow: 1px 1px 2px black;
+}
+
+.btn {
+    background-color: rgb(149, 110, 155);
+    margin-bottom: 5px;
+}
+
+.btn a {
+    color: white;
+    
 }

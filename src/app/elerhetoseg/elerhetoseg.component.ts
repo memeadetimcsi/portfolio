@@ -6,8 +6,16 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./elerhetoseg.component.css']
 })
 export class ElerhetosegComponent implements OnInit {
+  items: Array<any> = [];
 
-  constructor() { }
+  constructor() {
+    this.items = [
+      { name: '../../assets/img/kapcsolat.jpg' },
+      { name: 'assets/img/grafika.jpg' },
+      { name: 'assets/img/webfejlesztes.jpg' },
+      { name: 'assets/img/szolgaltatasok.jpg' }
+    ];
+   }
 
   ngOnInit() {
   }
